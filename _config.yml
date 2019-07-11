@@ -1,9 +1,9 @@
 ---
 title: notepad
-baseurl: "/"
+baseurl:
 desc: A minimal blog for off-topic blog entries.
 about: It is notepad.
-image: ""
+image:
 excerpt_separator: "<!-- more -->"
 markdown: kramdown
 gems:
