@@ -15,7 +15,9 @@ layout: default
       <article>
         <h1>{{ post.title }}</h1>
         <p>{{ post.excerpt }}</p>
-        <a href="{{ site.baseurl }}/{{ post.url }}">[ Read ]</a>
+        "site.baseurl={{ site.baseurl }}" <br/>
+        "post.url={{ post.url }}" <br/>
+        <a href="{{ site.url }}{{ site.baseurl }}/{{ post.url }}">[ Read ]</a>
       </article>
       {% endfor %}
       {% include buttons.html %}
